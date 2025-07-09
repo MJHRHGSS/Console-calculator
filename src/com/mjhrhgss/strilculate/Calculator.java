@@ -18,7 +18,7 @@ public class Calculator {
             return res;
         }
         private static boolean isNumber(Object num) {
-            System.out.printf("[isNumber] Checking if '%s' is a valid number...\n", num);
+            if (logging) System.out.printf("[isNumber] Checking if '%s' is a valid number...\n", num);
             try {
                 double check = Double.parseDouble(String.valueOf(num));
                 if (logging) System.out.printf("[isNumber] '%s' is a valid number.\n", num);
