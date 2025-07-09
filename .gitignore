@@ -1,0 +1,17 @@
+*.class
+/out/
+.idea/
+*.iml
+*.swp
+*.swo
+*.bak
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.log
+*.tmp
+*.orig
+*.jar
+*~
+build.sh
+build.bat
